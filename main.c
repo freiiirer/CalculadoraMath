@@ -7,10 +7,12 @@ int main(void) {
     int menu,vetor;//menus
     int vetorArray[5],aux;//vetor
 
-    menu = 0;
-    vetor = 0;
+
     while (menu != 6)
     {
+        menu = 0;
+        vetor = 0;
+
         printf("  ______     _______     _           _______ \n");
         printf(" |  __   %c  (  ____ %c   ( )         (  ____ %c \n",92,92,92);
         printf(" | (  %c  )  | (    %c/   | |         | (    %c/ \n",92,92,92);
