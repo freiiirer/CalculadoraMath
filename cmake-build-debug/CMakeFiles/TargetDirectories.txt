@@ -1,0 +1,3 @@
+C:/Users/Freire/Documents/Projetos/calculadoraPI/cmake-build-debug/CMakeFiles/calculadoraPI.dir
+C:/Users/Freire/Documents/Projetos/calculadoraPI/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Freire/Documents/Projetos/calculadoraPI/cmake-build-debug/CMakeFiles/rebuild_cache.dir
