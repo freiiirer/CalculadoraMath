@@ -3,12 +3,14 @@
 #include <locale.h>
 
 int main(void) {
-    setlocale(LC_ALL,"");
+    setlocale(LC_ALL,"Portuguese");
+
     int menu,vetor;//menus
     int vetorArray[5],aux;//vetor
 
+    menu = 0;
 
-    while (menu != 6)
+    while (menu != 5)
     {
         menu = 0;
         vetor = 0;
@@ -30,10 +32,9 @@ int main(void) {
         printf("    |                                     |\n");
         printf("    |        1- Vetor                     |\n");
         printf("    |        2- Matrizes                  |\n");
-        printf("    |        3- Funcoes                   |\n");
+        printf("    |        3- Funções                   |\n");
         printf("    |        4- Derivadas                 |\n");
-        printf("    |        5- Integrais                 |\n");
-        printf("    |               Sair(6)               |\n");
+        printf("    |               Sair(5)               |\n");
         printf("    |_____________________________________|\n");
         printf("\n    Digite uma das opcoes acima:");
         scanf("%d",&menu);
@@ -69,7 +70,7 @@ int main(void) {
                                     }
                                 }
                                 for (int i = 0; i < 5; ++i) {//exibicao
-                                    printf("\nO Valor da posicao %d agora é : %d\n", i, vetorArray[i]);
+                                    printf("\nO Valor da posicao %d agora eh : %d\n", i, vetorArray[i]);
                                 }
                                 system("pause");
                                 system("cls");
@@ -91,7 +92,7 @@ int main(void) {
                                     }
                                 }
                                 for (int i = 0; i < 5; ++i) {//exibicao
-                                    printf("\nO Valor da posicao %d agora é: %d", i, vetorArray[i]);
+                                    printf("\nO Valor da posicao %d agora eh: %d", i, vetorArray[i]);
                                 }
                                 system("pause");
                                 system("cls");
