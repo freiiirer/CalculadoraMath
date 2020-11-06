@@ -3,7 +3,7 @@
 #include <locale.h>
 
 int main(void) {
-    setlocale(LC_ALL,"Portuguese");
+    setlocale(LC_ALL,"");
 
     int menu,vetor;//menus
     int vetorArray[5],aux;//vetor
@@ -30,10 +30,10 @@ int main(void) {
         printf("    |           Menu Principal            |\n");
         printf("    |_____________________________________|\n");
         printf("    |                                     |\n");
-        printf("    |        1- Vetor                     |\n");
-        printf("    |        2- Matrizes                  |\n");
-        printf("    |        3- Funções                   |\n");
-        printf("    |        4- Derivadas                 |\n");
+        printf("    |         1- Vetor                    |\n");
+        printf("    |         2- Matrizes                 |\n");
+        wprintf(L"    |         3- Funções                  |\n");
+        printf("    |         4- Derivadas                |\n");
         printf("    |               Sair(5)               |\n");
         printf("    |_____________________________________|\n");
         printf("\n    Digite uma das opcoes acima:");
@@ -54,13 +54,13 @@ int main(void) {
                     if(vetor != 3){
                         switch (vetor) {
                             case 1://crescente
-                                for (int i = 0; i < 5; ++i) {//leitura de valores
+                                for (int i = 0; i < 5; i++) {//leitura de valores
                                     printf("Digite o valor %d : ",i+1);
                                     scanf("%d",&vetorArray[i]);
                                 }
                                 system("cls");
-                                for (int i = 0; i < 5; ++i) {//ordenacao de valores
-                                    for (int j = 0; j < 5; ++j) {
+                                for (int i = 0; i < 5; i++) {//ordenacao de valores
+                                    for (int j = i+1; j < 5; j++) {
                                         if (vetorArray[i] > vetorArray[j]){
 
                                            aux = vetorArray[i];
@@ -69,20 +69,20 @@ int main(void) {
                                         }
                                     }
                                 }
-                                for (int i = 0; i < 5; ++i) {//exibicao
-                                    printf("\nO Valor da posicao %d agora eh : %d\n", i, vetorArray[i]);
+                                for (int i = 0; i < 5; i++) {//exibicao
+                                    wprintf(L"\nO Valor da posicao %d agora é : %d\n", i, vetorArray[i]);
                                 }
                                 system("pause");
                                 system("cls");
                                 break;
                             case 2://decrescente
-                                for (int i = 0; i < 5; ++i) {//leitura de valores
+                                for (int i = 0; i < 5; i++) {//leitura de valores
                                     printf("Digite o valor %d: ",i +1);
                                     scanf("%d",&vetorArray[i]);
                                 }
                                 system("cls");
-                                for (int i = 0; i < 5; ++i) {//ordenacao de valores
-                                    for (int j = 0; j < 5; ++j) {
+                                for (int i = 0; i < 5; i++) {//ordenacao de valores
+                                    for (int j = i+1; j < 5; j++) {
                                         if (vetorArray[i] < vetorArray[j]){
 
                                             aux = vetorArray[i];
@@ -91,8 +91,8 @@ int main(void) {
                                         }
                                     }
                                 }
-                                for (int i = 0; i < 5; ++i) {//exibicao
-                                    printf("\nO Valor da posicao %d agora eh: %d", i, vetorArray[i]);
+                                for (int i = 0; i < 5; i++) {//exibicao
+                                    wprintf(L"\nO Valor da posicao %d agora é: %d\n", i, vetorArray[i]);
                                 }
                                 system("pause");
                                 system("cls");
