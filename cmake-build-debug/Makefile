@@ -142,6 +142,33 @@ calculadoraPI/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\calculadoraPI.dir\build.make CMakeFiles/calculadoraPI.dir/build
 .PHONY : calculadoraPI/fast
 
+funcoes.obj: funcoes.c.obj
+
+.PHONY : funcoes.obj
+
+# target to build an object file
+funcoes.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\calculadoraPI.dir\build.make CMakeFiles/calculadoraPI.dir/funcoes.c.obj
+.PHONY : funcoes.c.obj
+
+funcoes.i: funcoes.c.i
+
+.PHONY : funcoes.i
+
+# target to preprocess a source file
+funcoes.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\calculadoraPI.dir\build.make CMakeFiles/calculadoraPI.dir/funcoes.c.i
+.PHONY : funcoes.c.i
+
+funcoes.s: funcoes.c.s
+
+.PHONY : funcoes.s
+
+# target to generate assembly for a file
+funcoes.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\calculadoraPI.dir\build.make CMakeFiles/calculadoraPI.dir/funcoes.c.s
+.PHONY : funcoes.c.s
+
 main.obj: main.c.obj
 
 .PHONY : main.obj
@@ -178,6 +205,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... calculadoraPI
+	@echo ... funcoes.obj
+	@echo ... funcoes.i
+	@echo ... funcoes.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

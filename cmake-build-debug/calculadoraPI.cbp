@@ -74,6 +74,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/Freire/Documents/Projetos/calculadoraPI/funcoes.c">
+			<Option target="calculadoraPI"/>
+		</Unit>
+		<Unit filename="C:/Users/Freire/Documents/Projetos/calculadoraPI/funcoes.h">
+			<Option target="calculadoraPI"/>
+		</Unit>
 		<Unit filename="C:/Users/Freire/Documents/Projetos/calculadoraPI/main.c">
 			<Option target="calculadoraPI"/>
 		</Unit>

@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
+  "C:/Users/Freire/Documents/Projetos/calculadoraPI/funcoes.c" "C:/Users/Freire/Documents/Projetos/calculadoraPI/cmake-build-debug/CMakeFiles/calculadoraPI.dir/funcoes.c.obj"
   "C:/Users/Freire/Documents/Projetos/calculadoraPI/main.c" "C:/Users/Freire/Documents/Projetos/calculadoraPI/cmake-build-debug/CMakeFiles/calculadoraPI.dir/main.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")

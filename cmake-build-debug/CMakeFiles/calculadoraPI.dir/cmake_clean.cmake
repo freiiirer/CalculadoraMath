@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/calculadoraPI.dir/funcoes.c.obj"
   "CMakeFiles/calculadoraPI.dir/main.c.obj"
   "calculadoraPI.exe"
   "calculadoraPI.exe.manifest"

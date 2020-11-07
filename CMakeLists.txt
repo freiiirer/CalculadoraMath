@@ -3,4 +3,4 @@ project(calculadoraPI C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(calculadoraPI main.c)
+add_executable(calculadoraPI main.c funcoes.h funcoes.c)

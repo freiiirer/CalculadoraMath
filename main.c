@@ -1,12 +1,12 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <locale.h>
+#include "funcoes.h"
 
 int main(void) {
     setlocale(LC_ALL,"");
 
-    int menu,vetor;//menus
-    int vetorArray[5],aux;//vetor
+    int menu,vetor;//menu
 
     menu = 0;
 
@@ -54,58 +54,27 @@ int main(void) {
                     if(vetor != 3){
                         switch (vetor) {
                             case 1://crescente
-                                for (int i = 0; i < 5; i++) {//leitura de valores
-                                    printf("Digite o valor %d : ",i+1);
-                                    scanf("%d",&vetorArray[i]);
-                                }
-                                system("cls");
-                                for (int i = 0; i < 5; i++) {//ordenacao de valores
-                                    for (int j = i+1; j < 5; j++) {
-                                        if (vetorArray[i] > vetorArray[j]){
-
-                                           aux = vetorArray[i];
-                                           vetorArray[i] = vetorArray[j];
-                                           vetorArray[j] = aux;
-                                        }
-                                    }
-                                }
-                                for (int i = 0; i < 5; i++) {//exibicao
-                                    wprintf(L"\nO Valor da posicao %d agora é : %d\n", i, vetorArray[i]);
-                                }
+                                vetorCrescente();
                                 system("pause");
                                 system("cls");
                                 break;
                             case 2://decrescente
-                                for (int i = 0; i < 5; i++) {//leitura de valores
-                                    printf("Digite o valor %d: ",i +1);
-                                    scanf("%d",&vetorArray[i]);
-                                }
-                                system("cls");
-                                for (int i = 0; i < 5; i++) {//ordenacao de valores
-                                    for (int j = i+1; j < 5; j++) {
-                                        if (vetorArray[i] < vetorArray[j]){
-
-                                            aux = vetorArray[i];
-                                            vetorArray[i] = vetorArray[j];
-                                            vetorArray[j] = aux;
-                                        }
-                                    }
-                                }
-                                for (int i = 0; i < 5; i++) {//exibicao
-                                    wprintf(L"\nO Valor da posicao %d agora é: %d\n", i, vetorArray[i]);
-                                }
+                                vetorDecrescente();
                                 system("pause");
                                 system("cls");
                                 break;
 
                             default:
+                                wprintf(L"Opção Inválida,tente novamente\n");
+                                system("pause");
+                                system("cls");
                                 break;
                         }//fim switch vetor
                     }
                 }//fim  menu vetor
                 break;
             //case 2://Matrizes
-        }
+        }//fim switch menu
 
     }//fim while menu
 }
