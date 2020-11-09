@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h>
 #include <locale.h>
 #include "funcoes.h"
 
@@ -38,7 +37,7 @@ int main(void) {
         printf("    |_____________________________________|\n");
         printf("\n    Digite uma das opcoes acima:");
         scanf("%d",&menu);
-        system("cls");
+
 
         switch (menu) {
             case 1://vetor
@@ -49,25 +48,19 @@ int main(void) {
 
                     printf("Escolha sua opcao: ");
                     scanf("%d",&vetor);
-                    system("cls");
+
 
                     if(vetor != 3){
                         switch (vetor) {
                             case 1://crescente
                                 vetorCrescente();
-                                system("pause");
-                                system("cls");
                                 break;
                             case 2://decrescente
                                 vetorDecrescente();
-                                system("pause");
-                                system("cls");
                                 break;
 
                             default:
                                 printf("Opção Inválida,tente novamente\n");
-                                system("pause");
-                                system("cls");
                                 break;
                         }//fim switch vetor
                     }
