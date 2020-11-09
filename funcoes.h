@@ -6,5 +6,6 @@
 
 int vetorCrescente();
 int vetorDecrescente();
+int matrizDeterminante();
 
 #endif //CALCULADORAPI_FUNCOES_H

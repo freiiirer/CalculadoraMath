@@ -83,6 +83,7 @@ int main(void) {
 
                     switch (matriz) {
                         case 1://Determinantes
+                        matrizDeterminate();
                             break;
                         case 2://Soma
                             break;
