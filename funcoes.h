@@ -10,6 +10,7 @@ int vetorCrescente();
 int vetorDecrescente();
 int matrizDeterminante();
 int matrizSoma(); 
+int matrizSubtracao();
 void limpaTela();
 
 

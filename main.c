@@ -89,6 +89,7 @@ int main(void) {
                             matrizSoma();
                             break;
                         case 3://Subtracao
+                            matrizSubtracao();
                             break;
                         case 4://Produto
                             break;
