@@ -5,7 +5,7 @@
 int main(void) {
     setlocale(LC_ALL,"");
 
-    int menu,vetor;//menu
+    int menu,vetor,matriz;//menu
 
     menu = 0;
 
@@ -13,6 +13,7 @@ int main(void) {
     {
         menu = 0;
         vetor = 0;
+        matriz = 0;
 
         printf("  ______     _______     _           _______ \n");
         printf(" |  __   %c  (  ____ %c   ( )         (  ____ %c \n",92,92,92);
@@ -38,7 +39,10 @@ int main(void) {
         printf("\n    Digite uma das opcoes acima:");
         scanf("%d",&menu);
 
-
+        if (menu > 5){
+            printf("Digite uma opção valida\n\n\n");
+            continue;
+        }
         switch (menu) {
             case 1://vetor
                 while (vetor != 3){
@@ -66,7 +70,34 @@ int main(void) {
                     }
                 }//fim  menu vetor
                 break;
-            //case 2://Matrizes
+            case 2://Matrizes
+                while(matriz != 5){
+                    printf("\n1- Determinantes\n");
+                    printf("2- Soma\n");
+                    printf("3- Subtração\n");
+                    printf("4- Produto\n");
+                    printf("5- VOLTAR AO MENU PRINCIPAL\n");
+
+                    printf("Escolha sua opção: ");
+                    scanf("%d",&matriz);
+
+                    switch (matriz) {
+                        case 1://Determinantes
+                            break;
+                        case 2://Soma
+                            break;
+                        case 3://Subtracao
+                            break;
+                        case 4://Produto
+                            break;
+                        case 5://voltar
+                            continue;
+                        default:
+                            printf("Digite uma opção Válida\n\n\n");
+                            continue;
+                    }
+                }
+                break;
         }//fim switch menu
 
     }//fim while menu
