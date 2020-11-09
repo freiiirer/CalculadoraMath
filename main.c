@@ -32,7 +32,7 @@ int main(void) {
         printf("    |                                     |\n");
         printf("    |         1- Vetor                    |\n");
         printf("    |         2- Matrizes                 |\n");
-        wprintf(L"    |         3- Funções                  |\n");
+        printf("    |         3- Funções                  |\n");
         printf("    |         4- Derivadas                |\n");
         printf("    |               Sair(5)               |\n");
         printf("    |_____________________________________|\n");
@@ -65,7 +65,7 @@ int main(void) {
                                 break;
 
                             default:
-                                wprintf(L"Opção Inválida,tente novamente\n");
+                                printf("Opção Inválida,tente novamente\n");
                                 system("pause");
                                 system("cls");
                                 break;
