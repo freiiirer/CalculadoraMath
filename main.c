@@ -86,6 +86,7 @@ int main(void) {
                             matrizDeterminante();
                             break;
                         case 2://Soma
+                            matrizSoma();
                             break;
                         case 3://Subtracao
                             break;
