@@ -38,7 +38,7 @@ int main(void) {
         printf("    |_____________________________________|\n");
         printf("\n    Digite uma das opcoes acima:");
         scanf("%d",&menu);
-
+        limpaTela();
         if (menu > 5){
             printf("Digite uma opção valida\n\n\n");
             continue;
@@ -83,7 +83,7 @@ int main(void) {
 
                     switch (matriz) {
                         case 1://Determinantes
-                        matrizDeterminate();
+                            matrizDeterminante();
                             break;
                         case 2://Soma
                             break;

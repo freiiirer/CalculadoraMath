@@ -4,9 +4,20 @@
 
 #include "funcoes.h"
 #include <stdio.h>
+#include <stdlib.h>
+
 
 int vetorArray[5],aux;//vetor
 
+void limpaTela(){
+    #ifdef _WIN32
+        system("cls");
+    #endif
+
+    #ifdef __linux__
+        system("clear");
+    #endif
+}
 
 int vetorCrescente(){
     //int vetorArray[5],aux;//vetor
@@ -79,7 +90,7 @@ int vetorDecrescente(){
     //SOMA DOS RESULTADOS
     det = det + temp;
 
-    system("cls");
+    limpaTela();
 
     for(i = 0; i<3; i++) //MOSTRAR A MATRIZ FORMADA
     {

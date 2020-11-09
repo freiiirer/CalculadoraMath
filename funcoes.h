@@ -4,8 +4,12 @@
 #ifndef CALCULADORAPI_FUNCOES_H
 #define CALCULADORAPI_FUNCOES_H
 
+#include <stdlib.h>
+
 int vetorCrescente();
 int vetorDecrescente();
 int matrizDeterminante();
+void limpaTela();
+
 
 #endif //CALCULADORAPI_FUNCOES_H
