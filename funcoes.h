@@ -11,6 +11,7 @@ int vetorDecrescente();
 int matrizDeterminante();
 int matrizSoma(); 
 int matrizSubtracao();
+int matrizProduto();
 void limpaTela();
 
 

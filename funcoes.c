@@ -177,6 +177,75 @@ int vetorDecrescente(){
     int i,j,soma;
 
     for (i=0; i<3; i++)
+        {
+        for (j=0; j<3; j++)
+             {
+            printf("Elemento[%d][%d] da matriz A = ",i+1,j+1);
+            scanf("%d",&a[i][j]);
+             }
+        }
+
+    limpaTela();
+
+    for (i=0; i<3; i++)
+        {
+        for (j=0; j<3; j++)
+            {
+            printf("Elemento[%d][%d] da matriz B = ",i+1,j+1);
+            scanf("%d",&b[i][j]);
+
+            c[i][j] = a[i][j] - b[i][j];
+
+
+            }
+        }
+
+    limpaTela();
+
+    printf("\nMATRIZ A\n");
+    for (i=0; i<3; i++)
+        {
+        for(j=0; j<3; j++)
+        {
+            printf("%d |", a[i][j]);
+        }
+        printf("\n");
+        }
+
+
+
+    printf("\nMATRIZ B\n");
+    for(i=0; i<3; i++)
+        {
+        for (j=0; j<3; j++)
+        {
+            printf("%d |",b[i][j]);
+        }
+        printf("\n");
+        }
+
+
+
+    printf("\nMATRIZ C\n");
+    for(i = 0; i<3; i++) //MOSTRAR A MATRIZ FORMADA
+        {
+        for(j=0; j<3; j++)
+        {
+            printf("%d | ", c [i][j]);
+        }
+        printf("\n");
+
+        }
+    }
+
+    int matrizProduto(){
+    
+    int a[3][3];
+    int b[3][3];
+    int c[3][3];
+    int i,j,soma;
+
+    for (i=0; i<3; i++)
     {
         for (j=0; j<3; j++)
         {
@@ -194,11 +263,19 @@ int vetorDecrescente(){
             printf("Elemento[%d][%d] da matriz B = ",i+1,j+1);
             scanf("%d",&b[i][j]);
 
-            c[i][j] = a[i][j] - b[i][j];
-
 
         }
     }
+
+    c[0][0] = (a[0][0]*b[0][0])+(a[0][1]*b[1][0]) + (a[0][2]*b[2][0]);
+    c[0][1] = (a[0][0]*b[0][1])+(a[0][1]*b[1][1]) + (a[0][2]*b[2][1]);
+    c[0][2] = (a[0][0]*b[0][2])+(a[0][1]*b[1][2]) + (a[0][2]*b[2][2]);
+    c[1][0] = (a[1][0]*b[0][0])+(a[1][1]*b[1][0]) + (a[1][2]*b[2][0]);
+    c[1][1] = (a[1][0]*b[0][1])+(a[1][1]*b[1][1]) + (a[1][2]*b[2][1]);
+    c[1][2] = (a[1][0]*b[0][2])+(a[1][1]*b[1][2]) + (a[1][2]*b[2][2]);
+    c[2][0] = (a[2][0]*b[0][0])+(a[2][1]*b[1][0]) + (a[2][2]*b[2][0]);
+    c[2][1] = (a[2][0]*b[0][1])+(a[2][1]*b[1][1]) + (a[2][2]*b[2][1]);
+    c[2][2] = (a[2][0]*b[0][2])+(a[2][1]*b[1][2]) + (a[2][2]*b[2][2]);
 
     limpaTela();
 
@@ -224,18 +301,13 @@ int vetorDecrescente(){
         printf("\n");
     }
 
-
-
     printf("\nMATRIZ C\n");
-    for(i = 0; i<3; i++) //MOSTRAR A MATRIZ FORMADA
+    for (i=0; i<3; i++)
     {
         for(j=0; j<3; j++)
         {
-            printf("%d | ", c [i][j]);
+            printf("%d |",c[i][j]);
         }
         printf("\n");
-
     }
-
-
     }

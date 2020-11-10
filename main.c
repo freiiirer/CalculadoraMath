@@ -92,6 +92,7 @@ int main(void) {
                             matrizSubtracao();
                             break;
                         case 4://Produto
+                            matrizProduto();
                             break;
                         case 5://voltar
                             continue;
