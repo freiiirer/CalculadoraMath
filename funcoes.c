@@ -9,7 +9,7 @@
 
 int vetorArray[5],aux;//vetor
 
-void limpaTela(){
+    void limpaTela(){
     #ifdef _WIN32
         system("cls");
     #endif
@@ -19,7 +19,7 @@ void limpaTela(){
     #endif
 }
 
-int vetorCrescente(){
+    int vetorCrescente(){
     //int vetorArray[5],aux;//vetor
 
     for (int i = 0; i < 5; i++) {//leitura de valores
@@ -42,7 +42,7 @@ int vetorCrescente(){
 
 }
 
-int vetorDecrescente(){
+    int vetorDecrescente(){
     for (int i = 0; i < 5; i++) {//leitura de valores
         printf("Digite o valor %d: ",i +1);
         scanf("%d",&vetorArray[i]);
@@ -169,6 +169,7 @@ int vetorDecrescente(){
 
     }
     }
+    
     int matrizSubtracao(){
 
         int a[3][3];

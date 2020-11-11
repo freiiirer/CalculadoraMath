@@ -5,6 +5,7 @@
 #define CALCULADORAPI_FUNCOES_H
 
 #include <stdlib.h>
+#include "funcoes.c"
 
 int vetorCrescente();
 int vetorDecrescente();
