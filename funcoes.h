@@ -14,6 +14,6 @@ int matrizSoma();
 int matrizSubtracao();
 int matrizProduto();
 void limpaTela();
-
+int derivada();
 
 #endif //CALCULADORAPI_FUNCOES_H

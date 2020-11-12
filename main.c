@@ -102,6 +102,12 @@ int main(void) {
                     }
                 }
                 break;
+            case 3:// Funcoes
+
+                break;
+            
+            case 4:
+                break;
         }//fim switch menu
 
     }//fim while menu
