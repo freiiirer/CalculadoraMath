@@ -106,7 +106,8 @@ int main(void) {
 
                 break;
             
-            case 4:
+            case 4://derivadas
+                derivada();
                 break;
         }//fim switch menu
 

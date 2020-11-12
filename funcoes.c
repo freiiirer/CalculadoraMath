@@ -317,7 +317,7 @@ int vetorArray[5],aux;//vetor
         int i, grau, exp;
     float coef_poli[norma_vetor], coef_deriv[norma_vetor];
 
-    printf (" Informe o grau do polin�mio \n >> ");
+    printf (" Informe o grau do polinomio \n >> ");
     scanf("%i", &grau);
 
     if (grau<norma_vetor) {
