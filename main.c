@@ -5,7 +5,7 @@
 int main(void) {
     setlocale(LC_ALL,"");
 
-    int menu,vetor,matriz;//menu
+    int menu,vetor,matriz,funcao;//menu
 
     menu = 0;
 
@@ -103,6 +103,62 @@ int main(void) {
                 }
                 break;
             case 3:// Funcoes
+                while(funcao != 11){
+                printf("1- f(x) = k\n");
+                printf("2- f(x) = x^k\n");
+                printf("3- f(x) = k^x\n");
+                printf("4- f(x) = e^k\n");
+                printf("5- f(x) = logk(x)\n");
+                printf("6- f(x) = ln(x)\n");
+                printf("7- f(x) = 1//x\n");
+                printf("8- f(x) = sen(x)\n");
+                printf("9- f(X) = cos(x)\n");
+                printf("10- f(x) = tg(x)\n");
+                printf("11- Voltar ao menu principal\n");
+
+                printf("Escolha sua opção: ");
+                scanf("%d",&funcao );
+
+                switch (funcao){
+                        case 1: //k
+
+                            break;
+                        case 2: //x^k
+
+                            break;
+                        case 3: //k^x
+
+                            break;
+                        case 4: //e^k
+
+                            break;
+                        case 5: //logk(x)
+
+                            break;
+                        case 6: //ln(x)
+
+                            break;
+                        case 7: //1/x
+
+                            break;
+                        case 8: //sen(x)
+
+                            break;
+                        case 9: //cos(x)
+
+                            break;
+                        case 10: //tg(x)
+
+                            break;
+                        case 11: //voltar
+                            continue;
+                        
+                        default:
+                            printf("Digite uma opção valida\n\n\n");
+                            continue;
+                }   
+            }
+
 
                 break;
             
