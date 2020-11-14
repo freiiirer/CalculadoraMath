@@ -15,5 +15,18 @@ int matrizSubtracao();
 int matrizProduto();
 void limpaTela();
 int derivada();
+//------------//
+//funcao
+int k();
+int xk();
+int kx();
+int ex();
+int logkx();
+int lnx();
+int xx();
+int senx();
+int cosx();
+int tanx();
+//------------//
 
 #endif //CALCULADORAPI_FUNCOES_H

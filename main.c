@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <locale.h>
 #include "funcoes.h"
+#define PI 3.14159265
 
 int main(void) {
     setlocale(LC_ALL,"");
@@ -110,7 +111,7 @@ int main(void) {
                 printf("4- f(x) = e^k\n");
                 printf("5- f(x) = logk(x)\n");
                 printf("6- f(x) = ln(x)\n");
-                printf("7- f(x) = 1//x\n");
+                printf("7- f(x) = 1/x\n");
                 printf("8- f(x) = sen(x)\n");
                 printf("9- f(X) = cos(x)\n");
                 printf("10- f(x) = tg(x)\n");
@@ -121,34 +122,34 @@ int main(void) {
 
                 switch (funcao){
                         case 1: //k
-
+                            int k();
                             break;
                         case 2: //x^k
-
+                            int xk();
                             break;
                         case 3: //k^x
-
+                            int kx();
                             break;
                         case 4: //e^k
-
+                            int ek();
                             break;
                         case 5: //logk(x)
-
+                            int logkx();
                             break;
                         case 6: //ln(x)
-
+                            int lnx();
                             break;
                         case 7: //1/x
-
+                            int xx();
                             break;
                         case 8: //sen(x)
-
+                            int senx();
                             break;
                         case 9: //cos(x)
-
+                            int cosx();
                             break;
                         case 10: //tg(x)
-
+                            int tanx();
                             break;
                         case 11: //voltar
                             continue;

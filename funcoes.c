@@ -366,3 +366,115 @@ int vetorArray[5],aux;//vetor
     getchar();
     system("PAUSE");
     }
+    int k(){
+        int x,k;
+
+        printf("Digite o valor de x desejado: ");
+        scanf("%d",&x);
+
+        k = x;
+
+        limpaTela();
+
+        printf("\nf(x) = %d\n",k);
+    }
+    int xk(){
+        int x,k,potencia;
+
+        printf("Digite o valor de x desejado: ");
+        scanf("%d",&x);
+        printf("Digite o valor de k desejado: ");
+        scanf("%d",&k);
+
+        potencia = pow(x,k);
+
+        limpaTela();
+
+        printf("\nf(%d) = %d\n",x,potencia);
+
+    }
+    int kx(){
+        int x,k,potencia;
+
+        printf("Digite o valor de x desejado: ");
+        scanf("%d",&x);
+        printf("Digite o valor de k desejado: ");
+        scanf("%d",&k);
+
+        potencia = pow(k,x);
+
+        limpaTela();
+
+        printf("\nf(%d) = %d\n",x,potencia);
+    }
+    int ex(){
+        float x,e,potencia;
+
+        printf("Digite o valor de x desejado: ");
+        scanf("%f",&x);
+        e = 2.718281828459045235360287;
+
+       potencia = pow(e,x);
+
+        limpaTela();
+
+        printf("\nf(%.0f) = %.4f\n",x,potencia);
+    }
+    int logkx(){
+
+    }
+    int lnx(){
+        float x,resultado;
+
+        printf("Digite o valor de x desejado: ");
+        scanf("%f",&x);
+
+         resultado = log(x);
+
+         limpaTela();
+
+         printf("f(%.0f) = %.4f",x,resultado);
+    }
+    int xx();{
+        float x;
+
+        printf("Digite o valor de x desejado: ");
+        scanf("%f",&x);
+        
+        limpaTela();
+
+        printf("f(%.0f) = %.2f",x,1/x);
+    }
+    int senx(){
+        double x;
+
+        printf("Digite o valor de x desejado: ");
+        scanf("%lf",&x);
+    
+        limpaTela();
+
+        printf("f(%.0lf) = %.3f\n",x, sin(x*PI/180));
+    }
+    int cosx(){
+         double x;
+
+        printf("Digite o valor de x desejado: ");
+        scanf("%lf",&x);
+        
+        limpaTela();
+        
+        printf("f(%.0lf) = %.3f\n",x, cos(x*PI/180));
+
+    }
+    int tanx(){
+            double x;
+
+
+        printf("Digite o valor de x desejado: ");
+        scanf("%lf",&x);
+        
+        limpaTela();
+
+        printf("f(%.0lf) = %.3f\n",x, tan(x*PI/180));
+
+    }
