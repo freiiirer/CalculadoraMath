@@ -16,5 +16,18 @@ int matrizProduto();
 void limpaTela();
 int derivada();
 void opcaoInvalida();
+//------------//
+//funcao
+int k();
+int xk();
+int kx();
+int ex();
+int logkx();
+int lnx();
+int xx();
+int senx();
+int cosx();
+int tanx();
+//------------//
 
 #endif //CALCULADORAPI_FUNCOES_H
