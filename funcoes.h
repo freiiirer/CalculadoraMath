@@ -15,5 +15,6 @@ int matrizSubtracao();
 int matrizProduto();
 void limpaTela();
 int derivada();
+void opcaoInvalida();
 
 #endif //CALCULADORAPI_FUNCOES_H

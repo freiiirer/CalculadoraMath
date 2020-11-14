@@ -5,7 +5,7 @@
 #include "funcoes.h"
 #include <stdio.h>
 #include <stdlib.h>
-# define norma_vetor 10
+
 
 int vetorArray[5],aux;//vetor
 
@@ -313,56 +313,9 @@ int vetorArray[5],aux;//vetor
     }
     }
 
-    int derivada(){
-        int i, grau, exp;
-    float coef_poli[norma_vetor], coef_deriv[norma_vetor];
-
-    printf (" Informe o grau do polinomio \n >> ");
-    scanf("%i", &grau);
-
-    if (grau<norma_vetor) {
-    for (i=grau; i>=0; i=i-1){
-        printf (" Informe o coeficiente do termo de grau %i \n >> ", i);
-        scanf("%f", &coef_poli);
-    }
-
-        printf( " O polinomio informado e: \n >> ");
-        exp = grau;
-        for (i=grau; i>=0; i=i-1){
-
-    if (coef_deriv>0) {
-    printf (" + %.3f*x^%i", coef_poli, exp);
-    }
-    else {
-    printf (" %.3f*x^%i", coef_poli, exp);
-    }
-        exp -= 1;
-        }
-        printf ("\n\n");
-
-    for (i=grau; i>=1; i=i-1) {
-    coef_deriv[i] = coef_poli[i] * i;
-    }
-        printf (" A derivada do polinomio e: \n >> ");
-
-    exp = grau-1;
-    for (i=grau; i>=1; i=i-1) {
-
-    if (coef_deriv>0) {
-        printf (" + %.3f*x^%i", coef_deriv, exp);
-    }
-    else {
-        printf (" %.3f*x^%i", coef_deriv, exp);
-    }
-        exp -= 1;
-        }
-        printf ("\n\n");
-        }
-
-    else {
-    printf ("\n O grau do polinomio e muito elevado para este algoritmo!\n\n");
-    getchar();
-    }
-    getchar();
-    system("PAUSE");
+    void opcaoInvalida() {
+        printf("Digite uma opção válida\n");
+        printf("Pressione ENTER para continuar\n");
+        fflush(stdin);
+        getchar();
     }

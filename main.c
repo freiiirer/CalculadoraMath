@@ -9,12 +9,6 @@ int main(void) {
 
     menu = 0;
 
-    while (menu != 5)
-    {
-        menu = 0;
-        vetor = 0;
-        matriz = 0;
-
         printf("  ______     _______     _           _______ \n");
         printf(" |  __   %c  (  ____ %c   ( )         (  ____ %c \n",92,92,92);
         printf(" | (  %c  )  | (    %c/   | |         | (    %c/ \n",92,92,92);
@@ -25,6 +19,13 @@ int main(void) {
         printf(" (______/(_)(_______/(_)(_______/(_)(_______/\n\n");
         printf("    Dispositivo de Calculo em Linguagem C");
 
+
+    while (menu != 5)
+    {
+        menu = 0;
+        vetor = 0;
+        matriz = 0;
+
         printf("\n\n");
         printf("     _____________________________________\n");
         printf("    |           Menu Principal            |\n");
@@ -32,15 +33,15 @@ int main(void) {
         printf("    |                                     |\n");
         printf("    |         1- Vetor                    |\n");
         printf("    |         2- Matrizes                 |\n");
-        printf("    |         3- Fun√ß√µes                  |\n");
+        printf("    |         3- FunÁıes                  |\n");
         printf("    |         4- Derivadas                |\n");
         printf("    |               Sair(5)               |\n");
         printf("    |_____________________________________|\n");
-        printf("\n    Digite uma das opcoes acima:");
+        printf("\n    Digite uma das opÁıes acima:");
         scanf("%d",&menu);
         limpaTela();
         if (menu > 5){
-            printf("Digite uma op√ß√£o valida\n\n\n");
+            opcaoInvalida();
             continue;
         }
         switch (menu) {
@@ -50,9 +51,8 @@ int main(void) {
                     printf("2- Ordem descrescente\n");
                     printf("3- VOLTAR AO MENU PRINCIPAL\n");
 
-                    printf("Escolha sua opcao: ");
+                    printf("Escolha sua opÁ„o: ");
                     scanf("%d",&vetor);
-
 
                     if(vetor != 3){
                         switch (vetor) {
@@ -64,8 +64,8 @@ int main(void) {
                                 break;
 
                             default:
-                                printf("Op√ß√£o Inv√°lida,tente novamente\n");
-                                break;
+                                opcaoInvalida();
+                                continue;
                         }//fim switch vetor
                     }
                 }//fim  menu vetor
@@ -78,7 +78,7 @@ int main(void) {
                     printf("4- Produto\n");
                     printf("5- VOLTAR AO MENU PRINCIPAL\n");
 
-                    printf("Escolha sua op√ß√£o: ");
+                    printf("Escolha sua opÁ„o: ");
                     scanf("%d",&matriz);
 
                     switch (matriz) {
@@ -97,7 +97,7 @@ int main(void) {
                         case 5://voltar
                             continue;
                         default:
-                            printf("Digite uma op√ß√£o V√°lida\n\n\n");
+                            opcaoInvalida();
                             continue;
                     }
                 }
@@ -107,7 +107,6 @@ int main(void) {
                 break;
             
             case 4://derivadas
-                derivada();
                 break;
         }//fim switch menu
 
