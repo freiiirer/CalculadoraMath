@@ -6,6 +6,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+# define PI 3.1415 
 
 int vetorArray[5],aux;//vetor
 
@@ -36,7 +37,7 @@ int vetorArray[5],aux;//vetor
             }
         }
         for (int i = 0; i < 5; i++) {//exibicao
-            printf("\nO Valor da posicao %d agora Ã© : %d\n", i, vetorArray[i]);
+            printf("\nO Valor da posicao %d agora é : %d\n", i, vetorArray[i]);
         }
     }
 
@@ -56,7 +57,7 @@ int vetorArray[5],aux;//vetor
         }
     }
     for (int i = 0; i < 5; i++) {//exibicao
-        printf("\nO Valor da posicao %d agora Ã©: %d\n", i, vetorArray[i]);
+        printf("\nO Valor da posicao %d agora é: %d\n", i, vetorArray[i]);
     }
 }
 
@@ -81,7 +82,7 @@ int vetorArray[5],aux;//vetor
         }
     }
 
-    //PRIMEIRA MULTIPLICAÃ‡ÃƒO EM DIAGONAL
+    //PRIMEIRA MULTIPLICAÇÃO EM DIAGONAL
     det = (m[0][0] * m[1][1] * m[2][2]) + (m[0][1] * m[1][2] * m2[2][0]) + (m [0][2] * m2[1][0] * m2[2][1]);
     temp = ((m [0][2] * m[1][1] * m[2][0]) * (-1)) + ((m2[0][0] * m[1][2] * m[2][1]) * (-1)) + ((m2[0][1] * m2[1][0] * m[2][2]) * (-1));
 
@@ -312,8 +313,132 @@ int vetorArray[5],aux;//vetor
     }
 
     void opcaoInvalida() {
+        limpaTela();
         printf("Digite uma opção válida\n");
         printf("Pressione ENTER para continuar\n");
         fflush(stdin);
         getchar();
+        limpaTela();
+    }
+
+    int k(){
+        int x,k;
+
+        printf("Digite o valor de x desejado: ");
+        scanf("%d",&x);
+
+        k = x;
+
+        limpaTela();
+
+        printf("\nf(x) = %d\n",k);
+    }
+
+    int xk(){
+        int x,k,potencia;
+
+        printf("Digite o valor de x desejado: ");
+        scanf("%d",&x);
+        printf("Digite o valor de k desejado: ");
+        scanf("%d",&k);
+
+        potencia = pow(x,k);
+
+        limpaTela();
+
+        printf("\nf(%d) = %d\n",x,potencia);
+
+    }
+
+    int kx(){
+        int x,k,potencia;
+
+        printf("Digite o valor de x desejado: ");
+        scanf("%d",&x);
+        printf("Digite o valor de k desejado: ");
+        scanf("%d",&k);
+
+        potencia = pow(k,x);
+
+        limpaTela();
+
+        printf("\nf(%d) = %d\n",x,potencia);
+    }
+
+    int ex(){
+        float x,e,potencia;
+
+        printf("Digite o valor de x desejado: ");
+        scanf("%f",&x);
+        e = 2.718281828459045235360287;
+
+       potencia = pow(e,x);
+
+        limpaTela();
+
+        printf("\nf(%.0f) = %.4f\n",x,potencia);
+    }
+
+    int logkx(){
+
+    }
+
+    int lnx(){
+        float x,resultado;
+
+        printf("Digite o valor de x desejado: ");
+        scanf("%f",&x);
+
+         resultado = log(x);
+
+         limpaTela();
+
+         printf("f(%.0f) = %.4f",x,resultado);
+    }
+
+    int xx(){
+        float x;
+
+        printf("Digite o valor de x desejado: ");
+        scanf("%f",&x);
+        
+        limpaTela();
+
+        printf("f(%.0f) = %.2f",x,1/x);
+    }
+
+    int senx(){
+        double x;
+
+        printf("Digite o valor de x desejado: ");
+        scanf("%lf",&x);
+    
+        limpaTela();
+
+        printf("f(%.0lf) = %.3f\n",x, sin(x*PI/180));
+    }
+
+    int cosx(){
+         double x;
+
+        printf("Digite o valor de x desejado: ");
+        scanf("%lf",&x);
+        
+        limpaTela();
+        
+        printf("f(%.0lf) = %.3f\n",x, cos(x*PI/180));
+
+    }
+
+    int tanx(){
+            double x;
+
+
+        printf("Digite o valor de x desejado: ");
+        scanf("%lf",&x);
+        
+        limpaTela();
+
+        printf("f(%.0lf) = %.3f\n",x, tan(x*PI/180));
+
     }

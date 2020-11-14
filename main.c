@@ -26,6 +26,7 @@ int main(void) {
         menu = 0;
         vetor = 0;
         matriz = 0;
+        funcao = 0;
 
         printf("\n\n");
         printf("     _____________________________________\n");
@@ -75,7 +76,7 @@ int main(void) {
                 while(matriz != 5){
                     printf("\n1- Determinantes\n");
                     printf("2- Soma\n");
-                    printf("3- SubtraÃ§Ã£o\n");
+                    printf("3- Subtração\n");
                     printf("4- Produto\n");
                     printf("5- VOLTAR AO MENU PRINCIPAL\n");
 
@@ -115,41 +116,41 @@ int main(void) {
                     printf("8- f(x) = sen(x)\n");
                     printf("9- f(X) = cos(x)\n");
                     printf("10- f(x) = tg(x)\n");
-                    printf("11- Voltar ao menu principal\n");
+                    printf("11- Voltar ao menu principal\n\n");
 
                     printf("Escolha sua opção: ");
                     scanf("%d",&funcao);
 
                     switch (funcao){
                         case 1: //k
-                            int k();
+                            k();
                             break;
                         case 2: //x^k
-                            int xk();
+                            xk();
                             break;
                         case 3: //k^x
-                            int kx();
+                            kx();
                             break;
                         case 4: //e^k
-                            int ek();
+                            ex();
                             break;
                         case 5: //logk(x)
-                            int logkx();
+                            logkx();
                             break;
                         case 6: //ln(x)
-                            int lnx();
+                            lnx();
                             break;
                         case 7: //1/x
-                            int xx();
+                            xx();
                             break;
                         case 8: //sen(x)
-                            int senx();
+                            senx();
                             break;
                         case 9: //cos(x)
-                            int cosx();
+                            cosx();
                             break;
                         case 10: //tg(x)
-                            int tanx();
+                            tanx();
                             break;
                         case 11: //voltar
                             continue;
