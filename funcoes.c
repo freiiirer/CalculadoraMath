@@ -5,7 +5,8 @@
 #include "funcoes.h"
 #include <stdio.h>
 #include <stdlib.h>
-# define norma_vetor 10
+
+# define PI 3.1415 
 
 int vetorArray[5],aux;//vetor
 
@@ -20,31 +21,29 @@ int vetorArray[5],aux;//vetor
 }
 
     int vetorCrescente(){
-    //int vetorArray[5],aux;//vetor
+        
+        for (int i = 0; i < 5; i++) {//leitura de valores
+            printf("Digite o valor %d : ",i + 1);
+            scanf("%d",&vetorArray[i]);
+        }
+        for (int i = 0; i < 5; i++) {//ordenacao de valores
+            for (int j = i+1; j < 5; j++) {
+                if (vetorArray[i] > vetorArray[j]){
 
-    for (int i = 0; i < 5; i++) {//leitura de valores
-        printf("Digite o valor %d : ",i+1);
-        scanf("%d",&vetorArray[i]);
-    }
-    for (int i = 0; i < 5; i++) {//ordenacao de valores
-        for (int j = i+1; j < 5; j++) {
-            if (vetorArray[i] > vetorArray[j]){
-
-                aux = vetorArray[i];
-                vetorArray[i] = vetorArray[j];
-                vetorArray[j] = aux;
+                    aux = vetorArray[i];
+                    vetorArray[i] = vetorArray[j];
+                    vetorArray[j] = aux;
+                }
             }
         }
+        for (int i = 0; i < 5; i++) {//exibicao
+            printf("\nO Valor da posicao %d agora é : %d\n", i, vetorArray[i]);
+        }
     }
-    for (int i = 0; i < 5; i++) {//exibicao
-        printf("\nO Valor da posicao %d agora Ã© : %d\n", i, vetorArray[i]);
-    }
-
-}
 
     int vetorDecrescente(){
     for (int i = 0; i < 5; i++) {//leitura de valores
-        printf("Digite o valor %d: ",i +1);
+        printf("Digite o valor %d: ",i + 1);
         scanf("%d",&vetorArray[i]);
     }
     for (int i = 0; i < 5; i++) {//ordenacao de valores
@@ -58,7 +57,7 @@ int vetorArray[5],aux;//vetor
         }
     }
     for (int i = 0; i < 5; i++) {//exibicao
-        printf("\nO Valor da posicao %d agora Ã©: %d\n", i, vetorArray[i]);
+        printf("\nO Valor da posicao %d agora é: %d\n", i, vetorArray[i]);
     }
 }
 
@@ -83,7 +82,7 @@ int vetorArray[5],aux;//vetor
         }
     }
 
-    //PRIMEIRA MULTIPLICAÃ‡ÃƒO EM DIAGONAL
+    //PRIMEIRA MULTIPLICAÇÃO EM DIAGONAL
     det = (m[0][0] * m[1][1] * m[2][2]) + (m[0][1] * m[1][2] * m2[2][0]) + (m [0][2] * m2[1][0] * m2[2][1]);
     temp = ((m [0][2] * m[1][1] * m[2][0]) * (-1)) + ((m2[0][0] * m[1][2] * m[2][1]) * (-1)) + ((m2[0][1] * m2[1][0] * m[2][2]) * (-1));
 
@@ -313,59 +312,15 @@ int vetorArray[5],aux;//vetor
     }
     }
 
-    int derivada(){
-        int i, grau, exp;
-    float coef_poli[norma_vetor], coef_deriv[norma_vetor];
-
-    printf (" Informe o grau do polinomio \n >> ");
-    scanf("%i", &grau);
-
-    if (grau<norma_vetor) {
-    for (i=grau; i>=0; i=i-1){
-        printf (" Informe o coeficiente do termo de grau %i \n >> ", i);
-        scanf("%f", &coef_poli);
+    void opcaoInvalida() {
+        limpaTela();
+        printf("Digite uma opção válida\n");
+        printf("Pressione ENTER para continuar\n");
+        fflush(stdin);
+        getchar();
+        limpaTela();
     }
 
-        printf( " O polinomio informado e: \n >> ");
-        exp = grau;
-        for (i=grau; i>=0; i=i-1){
-
-    if (coef_deriv>0) {
-    printf (" + %.3f*x^%i", coef_poli, exp);
-    }
-    else {
-    printf (" %.3f*x^%i", coef_poli, exp);
-    }
-        exp -= 1;
-        }
-        printf ("\n\n");
-
-    for (i=grau; i>=1; i=i-1) {
-    coef_deriv[i] = coef_poli[i] * i;
-    }
-        printf (" A derivada do polinomio e: \n >> ");
-
-    exp = grau-1;
-    for (i=grau; i>=1; i=i-1) {
-
-    if (coef_deriv>0) {
-        printf (" + %.3f*x^%i", coef_deriv, exp);
-    }
-    else {
-        printf (" %.3f*x^%i", coef_deriv, exp);
-    }
-        exp -= 1;
-        }
-        printf ("\n\n");
-        }
-
-    else {
-    printf ("\n O grau do polinomio e muito elevado para este algoritmo!\n\n");
-    getchar();
-    }
-    getchar();
-    system("PAUSE");
-    }
     int k(){
         int x,k;
 
@@ -378,6 +333,7 @@ int vetorArray[5],aux;//vetor
 
         printf("\nf(x) = %d\n",k);
     }
+
     int xk(){
         int x,k,potencia;
 
@@ -393,6 +349,7 @@ int vetorArray[5],aux;//vetor
         printf("\nf(%d) = %d\n",x,potencia);
 
     }
+
     int kx(){
         int x,k,potencia;
 
@@ -407,6 +364,7 @@ int vetorArray[5],aux;//vetor
 
         printf("\nf(%d) = %d\n",x,potencia);
     }
+
     int ex(){
         float x,e,potencia;
 
@@ -420,9 +378,11 @@ int vetorArray[5],aux;//vetor
 
         printf("\nf(%.0f) = %.4f\n",x,potencia);
     }
+
     int logkx(){
 
     }
+
     int lnx(){
         float x,resultado;
 
@@ -435,7 +395,8 @@ int vetorArray[5],aux;//vetor
 
          printf("f(%.0f) = %.4f",x,resultado);
     }
-    int xx();{
+
+    int xx(){
         float x;
 
         printf("Digite o valor de x desejado: ");
@@ -445,6 +406,7 @@ int vetorArray[5],aux;//vetor
 
         printf("f(%.0f) = %.2f",x,1/x);
     }
+
     int senx(){
         double x;
 
@@ -455,6 +417,7 @@ int vetorArray[5],aux;//vetor
 
         printf("f(%.0lf) = %.3f\n",x, sin(x*PI/180));
     }
+
     int cosx(){
          double x;
 
@@ -466,6 +429,7 @@ int vetorArray[5],aux;//vetor
         printf("f(%.0lf) = %.3f\n",x, cos(x*PI/180));
 
     }
+
     int tanx(){
             double x;
 

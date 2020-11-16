@@ -15,6 +15,7 @@ int matrizSubtracao();
 int matrizProduto();
 void limpaTela();
 int derivada();
+void opcaoInvalida();
 //------------//
 //funcao
 int k();
