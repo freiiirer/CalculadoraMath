@@ -159,8 +159,6 @@ int main(void) {
                             continue;
                 }   
             }
-
-
                 break;
             
             case 4://derivadas
