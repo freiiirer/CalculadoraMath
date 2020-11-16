@@ -37,7 +37,7 @@ int vetorArray[5],aux;//vetor
             }
         }
         for (int i = 0; i < 5; i++) {//exibicao
-            printf("\nO Valor da posicao %d agora é : %d\n", i, vetorArray[i]);
+            printf("\nO Valor da posicao %d agora ï¿½ : %d\n", i, vetorArray[i]);
         }
     }
 
@@ -57,7 +57,7 @@ int vetorArray[5],aux;//vetor
         }
     }
     for (int i = 0; i < 5; i++) {//exibicao
-        printf("\nO Valor da posicao %d agora é: %d\n", i, vetorArray[i]);
+        printf("\nO Valor da posicao %d agora ï¿½: %d\n", i, vetorArray[i]);
     }
 }
 
@@ -82,7 +82,7 @@ int vetorArray[5],aux;//vetor
         }
     }
 
-    //PRIMEIRA MULTIPLICAÇÃO EM DIAGONAL
+    //PRIMEIRA MULTIPLICAï¿½ï¿½O EM DIAGONAL
     det = (m[0][0] * m[1][1] * m[2][2]) + (m[0][1] * m[1][2] * m2[2][0]) + (m [0][2] * m2[1][0] * m2[2][1]);
     temp = ((m [0][2] * m[1][1] * m[2][0]) * (-1)) + ((m2[0][0] * m[1][2] * m[2][1]) * (-1)) + ((m2[0][1] * m2[1][0] * m[2][2]) * (-1));
 
@@ -314,7 +314,7 @@ int vetorArray[5],aux;//vetor
 
     void opcaoInvalida() {
         limpaTela();
-        printf("Digite uma opção válida\n");
+        printf("Digite uma opï¿½ï¿½o vï¿½lida\n");
         printf("Pressione ENTER para continuar\n");
         fflush(stdin);
         getchar();
@@ -380,7 +380,7 @@ int vetorArray[5],aux;//vetor
     }
 
     int logkx(){
-
+            
     }
 
     int lnx(){
