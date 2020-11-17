@@ -36,7 +36,7 @@ int main(void) {
         printf("    |                                     |\n");
         printf("    |         1- Vetor                    |\n");
         printf("    |         2- Matrizes                 |\n");
-        printf("    |         3- Funï¿½ï¿½es                  |\n");
+        printf("    |         3- Funções                  |\n");
         printf("    |         4- Derivadas                |\n");
         printf("    |               Sair(5)               |\n");
         printf("    |_____________________________________|\n");
@@ -58,7 +58,7 @@ int main(void) {
                     printf("2- Ordem descrescente\n");
                     printf("3- VOLTAR AO MENU PRINCIPAL\n");
 
-                    printf("Escolha sua opï¿½ï¿½o: ");
+                    printf("Escolha sua opção ");
                     scanf("%d",&vetor);
 
                     if(vetor != 3){
@@ -127,7 +127,7 @@ int main(void) {
                     printf("10- f(x) = tg(x)\n");
                     printf("11- Voltar ao menu principal\n\n");
 
-                    printf("Escolha sua opï¿½ï¿½o: ");
+                    printf("Escolha sua opção: ");
                     scanf("%d",&funcao);
 
                     switch (funcao){
