@@ -39,11 +39,9 @@ int main(void) {
         printf("    |         4- Derivadas                |\n");
         printf("    |               Sair(5)               |\n");
         printf("    |_____________________________________|\n");
-<<<<<<< HEAD
-        printf("\n    Digite uma das op??es acima:");
-=======
+
         printf("\n    Digite uma das opções acima:");
->>>>>>> 6ea777ad0ea5d6b660df150263ef3de1cf4d07c4
+
         scanf("%d",&menu);
         limpaTela();
         if (menu > 5){
@@ -80,11 +78,9 @@ int main(void) {
                 while(matriz != 5){
                     printf("\n1- Determinantes\n");
                     printf("2- Soma\n");
-<<<<<<< HEAD
-                    printf("3- Subtra??o\n");
-=======
+
                     printf("3- Subtração\n");
->>>>>>> 6ea777ad0ea5d6b660df150263ef3de1cf4d07c4
+
                     printf("4- Produto\n");
                     printf("5- VOLTAR AO MENU PRINCIPAL\n");
 
