@@ -2,6 +2,7 @@
 #include <locale.h>
 #include "funcoes.h"
 #define PI 3.14159265
+#define e = 2.718281828459045235360287
 
 int main(void) {
     setlocale(LC_ALL,"");
@@ -35,12 +36,14 @@ int main(void) {
         printf("    |                                     |\n");
         printf("    |         1- Vetor                    |\n");
         printf("    |         2- Matrizes                 |\n");
-        printf("    |         3- Funções                  |\n");
+        printf("    |         3- Funï¿½ï¿½es                  |\n");
         printf("    |         4- Derivadas                |\n");
         printf("    |               Sair(5)               |\n");
         printf("    |_____________________________________|\n");
 
+
         printf("\n    Digite uma das opções acima:");
+
 
         scanf("%d",&menu);
         limpaTela();
@@ -55,7 +58,7 @@ int main(void) {
                     printf("2- Ordem descrescente\n");
                     printf("3- VOLTAR AO MENU PRINCIPAL\n");
 
-                    printf("Escolha sua opção: ");
+                    printf("Escolha sua opï¿½ï¿½o: ");
                     scanf("%d",&vetor);
 
                     if(vetor != 3){
@@ -79,12 +82,14 @@ int main(void) {
                     printf("\n1- Determinantes\n");
                     printf("2- Soma\n");
 
+
                     printf("3- Subtração\n");
+
 
                     printf("4- Produto\n");
                     printf("5- VOLTAR AO MENU PRINCIPAL\n");
 
-                    printf("Escolha sua opção: ");
+                    printf("Escolha sua opï¿½ï¿½o: ");
                     scanf("%d",&matriz);
 
                     switch (matriz) {
@@ -122,7 +127,7 @@ int main(void) {
                     printf("10- f(x) = tg(x)\n");
                     printf("11- Voltar ao menu principal\n\n");
 
-                    printf("Escolha sua opção: ");
+                    printf("Escolha sua opï¿½ï¿½o: ");
                     scanf("%d",&funcao);
 
                     switch (funcao){

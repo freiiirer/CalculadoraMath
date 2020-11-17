@@ -5,7 +5,6 @@
 #include "funcoes.h"
 #include <stdio.h>
 #include <stdlib.h>
-#include <math.h>
 
 # define PI 3.1415 
 
@@ -371,7 +370,7 @@ int vetorArray[5],aux;//vetor
 
         printf("Digite o valor de x desejado: ");
         scanf("%f",&x);
-        e = 2.718281828459045235360287;
+        
 
        potencia = pow(e,x);
 
