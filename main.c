@@ -60,6 +60,7 @@ int main(void) {
 
                     printf("Escolha sua opção ");
                     scanf("%d",&vetor);
+                    limpaTela();
 
                     if(vetor != 3){
                         switch (vetor) {
@@ -75,10 +76,13 @@ int main(void) {
                                 continue;
                         }//fim switch vetor
                     }
+                    limpaTela();
                 }//fim  menu vetor
+
                 break;
             case 2://Matrizes
                 while(matriz != 5){
+
                     printf("\n1- Determinantes\n");
                     printf("2- Soma\n");
 
@@ -89,12 +93,13 @@ int main(void) {
                     printf("4- Produto\n");
                     printf("5- VOLTAR AO MENU PRINCIPAL\n");
 
-                    printf("Escolha sua opï¿½ï¿½o: ");
+                    printf("Escolha sua opção: ");
                     scanf("%d",&matriz);
-
+                    limpaTela();
                     switch (matriz) {
                         case 1://Determinantes
                             matrizDeterminante();
+
                             break;
                         case 2://Soma
                             matrizSoma();
@@ -105,7 +110,8 @@ int main(void) {
                         case 4://Produto
                             matrizProduto();
                             break;
-                        case 5://voltar
+                        case 5:
+                            limpaTela();
                             continue;
                         default:
                             opcaoInvalida();
@@ -129,7 +135,7 @@ int main(void) {
 
                     printf("Escolha sua opção: ");
                     scanf("%d",&funcao);
-
+                    limpaTela();
                     switch (funcao){
                         case 1: //k
                             k();

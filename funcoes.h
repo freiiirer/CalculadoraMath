@@ -6,7 +6,7 @@
 
 #include <stdlib.h>
 
-
+void pressioneEnter();
 int vetorCrescente();
 int vetorDecrescente();
 int matrizDeterminante();
