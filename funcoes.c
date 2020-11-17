@@ -381,7 +381,18 @@ int vetorArray[5],aux;//vetor
     }
 
     int logkx(){
-            
+            float k,x,nep;
+
+        printf("f(x) = logk(x) \n\n");
+        printf("Digite o logaritmando (x): ");
+        scanf("%f",&x);
+        printf("Digite a base (k): ");
+        scanf("%f",&k);
+
+        nep = log10(x) / log10 (k);
+
+        printf("f (%.0f) = log(%.0f) = %.2f",x,k,nep);
+
     }
 
     int lnx(){
