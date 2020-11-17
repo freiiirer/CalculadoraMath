@@ -8,18 +8,24 @@ int main(void) {
     setlocale(LC_ALL,"");
 
     int menu,vetor,matriz,funcao;//menu
-
+    system("MODE con cols=46 lines=30 ");
     menu = 0;
 
-        printf("  ______     _______     _           _______ \n");
-        printf(" |  __   %c  (  ____ %c   ( )         (  ____ %c \n",92,92,92);
-        printf(" | (  %c  )  | (    %c/   | |         | (    %c/ \n",92,92,92);
-        printf(" | |   ) |  | |         | |         | |      \n");
-        printf(" | |   | |  | |         | |         | |      \n");
-        printf(" | |   ) |  | |         | |         | |      \n");
-        printf(" | (__/  )_ | (____/%c _ | (____/%c _ | (____/%c \n",92,92,92);
-        printf(" (______/(_)(_______/(_)(_______/(_)(_______/\n\n");
-        printf("    Dispositivo de Calculo em Linguagem C");
+    printf("  ______     _______     _           _______ \n");
+    printf(" |  __   %c  (  ____ %c   ( )         (  ____ %c \n",92,92,92);
+    printf(" | (  %c  )  | (    %c/   | |         | (    %c/ \n",92,92,92);
+    printf(" | |   ) |  | |         | |         | |      \n");
+    printf(" | |   | |  | |         | |         | |      \n");
+    printf(" | |   ) |  | |         | |         | |      \n");
+    printf(" | (__/  )_ | (____/%c _ | (____/%c _ | (____/%c \n",92,92,92);
+    printf(" (______/(_)(_______/(_)(_______/(_)(_______/\n\n");
+    printf("    Dispositivo de Calculo em Linguagem C");
+
+    printf("\n\n\n\n");
+    printf("        Pressione ENTER para continuar");
+    fflush(stdin);
+    getchar();
+    limpaTela();
 
 
     while (menu != 5)
@@ -182,4 +188,5 @@ int main(void) {
         }//fim switch menu
 
     }//fim while menu
+    pressioneEnter();
 }
