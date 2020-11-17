@@ -1,8 +1,10 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/calculadoraPI.dir/funcoes.c.o"
-  "CMakeFiles/calculadoraPI.dir/main.c.o"
-  "calculadoraPI"
+  "CMakeFiles/calculadoraPI.dir/funcoes.c.obj"
+  "CMakeFiles/calculadoraPI.dir/main.c.obj"
+  "calculadoraPI.exe"
+  "calculadoraPI.exe.manifest"
   "calculadoraPI.pdb"
+  "libcalculadoraPI.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.

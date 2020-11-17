@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/freire/Documents/Projetos/calculadoraMath/funcoes.c" "/home/freire/Documents/Projetos/calculadoraMath/cmake-build-debug/CMakeFiles/calculadoraPI.dir/funcoes.c.o"
-  "/home/freire/Documents/Projetos/calculadoraMath/main.c" "/home/freire/Documents/Projetos/calculadoraMath/cmake-build-debug/CMakeFiles/calculadoraPI.dir/main.c.o"
+  "C:/Users/Leonardo/Documents/Projetos/calculadoraMath/funcoes.c" "C:/Users/Leonardo/Documents/Projetos/calculadoraMath/cmake-build-debug/CMakeFiles/calculadoraPI.dir/funcoes.c.obj"
+  "C:/Users/Leonardo/Documents/Projetos/calculadoraMath/main.c" "C:/Users/Leonardo/Documents/Projetos/calculadoraMath/cmake-build-debug/CMakeFiles/calculadoraPI.dir/main.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
