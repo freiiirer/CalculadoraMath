@@ -450,7 +450,7 @@ int vetorArray[5],aux;//vetor
 
             printf("\n");
 
-            printf("[%.2f^%d] = %.2f . ln(%.2f) = %.2f^%d\n",e,x,e,e,e,x);
+            printf("[%.2f^%.0f] = %.2f . ln(%.2f) = %.2f^%.0f\n",e,x,e,e,e,x);
             printf("                  {  1  } \n");
         }
         pressioneEnter();
@@ -484,7 +484,7 @@ int vetorArray[5],aux;//vetor
             printf("\nResultados com numeros \n");
             printf("\n");
 
-            printf("log%d (%.0f)' =   1\n",k,x);
+            printf("log%.0f (%.0f)' =   1\n",k,x);
             printf("            -----\n");
             printf("           %.0f . ln(%.0f)\n",x,k);
 
@@ -579,7 +579,7 @@ int vetorArray[5],aux;//vetor
             printf("Resultado com numeros");
             printf("\n");
 
-            printf("[sen(%lf)]' = cos(%lf)\n",x,x);
+            printf("[sen(%.0lf)]' = cos(%.0lf)\n",x,x);
         }
         pressioneEnter();
 
@@ -596,7 +596,7 @@ int vetorArray[5],aux;//vetor
             printf("f(%.0lf) = %.3f\n",x, cos((x*PI)/180));
 
         }else if(menu == 4){
-            int x;
+            double x;
             printf("Digite o valor de x desejado: ");
             scanf("%lf",&x);
 
@@ -606,7 +606,7 @@ int vetorArray[5],aux;//vetor
             printf("Resultado com numeros");
             printf("\n");
 
-            printf("[cos(%lf)]' = -sen(%lf)\n",x,x);
+            printf("[cos(%.0lf)]' = -sen(%.0lf)\n",x,x);
         }
         pressioneEnter();
 
@@ -631,7 +631,7 @@ int vetorArray[5],aux;//vetor
             printf("Resultado com numeros");
             printf("\n");
 
-            printf("[tg(%lf)]' = sec^2(%lf)\n",x,x);
+            printf("[tg(%.0lf)]' = sec^2(%.0lf)\n",x,x);
         }
         pressioneEnter();
     }
