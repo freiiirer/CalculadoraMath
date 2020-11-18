@@ -9,7 +9,7 @@ void pressioneEnter();
 int vetorCrescente();
 int vetorDecrescente();
 int matrizDeterminante();
-int matrizSoma();
+int matrizSoma(); 
 int matrizSubtracao();
 int matrizProduto();
 void limpaTela();

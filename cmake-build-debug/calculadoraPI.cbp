@@ -8,18 +8,18 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="C:/Users/Leonardo/Documents/Projetos/calculadoraMath/cmake-build-debug"/>
+				<Option working_dir="C:/Projetos/calculadoraMathbackup/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Leonardo/Documents/Projetos/calculadoraMath/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Leonardo/Documents/Projetos/calculadoraMath/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Leonardo/Documents/Projetos/calculadoraMath/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Leonardo/Documents/Projetos/calculadoraMath/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Projetos/calculadoraMathbackup/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Projetos/calculadoraMathbackup/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Projetos/calculadoraMathbackup/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Projetos/calculadoraMathbackup/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="calculadoraPI">
-				<Option output="C:/Users/Leonardo/Documents/Projetos/calculadoraMath/cmake-build-debug/calculadoraPI.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/Leonardo/Documents/Projetos/calculadoraMath/cmake-build-debug"/>
+				<Option output="C:/Projetos/calculadoraMathbackup/cmake-build-debug/calculadoraPI.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Projetos/calculadoraMathbackup/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -29,15 +29,15 @@
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include-fixed"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Leonardo/Documents/Projetos/calculadoraMath/cmake-build-debug/Makefile&quot;  VERBOSE=1 calculadoraPI"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Leonardo/Documents/Projetos/calculadoraMath/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Leonardo/Documents/Projetos/calculadoraMath/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Leonardo/Documents/Projetos/calculadoraMath/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Projetos/calculadoraMathbackup/cmake-build-debug/Makefile&quot;  VERBOSE=1 calculadoraPI"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Projetos/calculadoraMathbackup/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Projetos/calculadoraMathbackup/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Projetos/calculadoraMathbackup/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="calculadoraPI/fast">
-				<Option output="C:/Users/Leonardo/Documents/Projetos/calculadoraMath/cmake-build-debug/calculadoraPI.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/Leonardo/Documents/Projetos/calculadoraMath/cmake-build-debug"/>
+				<Option output="C:/Projetos/calculadoraMathbackup/cmake-build-debug/calculadoraPI.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Projetos/calculadoraMathbackup/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -47,43 +47,43 @@
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include-fixed"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Leonardo/Documents/Projetos/calculadoraMath/cmake-build-debug/Makefile&quot;  VERBOSE=1 calculadoraPI/fast"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Leonardo/Documents/Projetos/calculadoraMath/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Leonardo/Documents/Projetos/calculadoraMath/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Leonardo/Documents/Projetos/calculadoraMath/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Projetos/calculadoraMathbackup/cmake-build-debug/Makefile&quot;  VERBOSE=1 calculadoraPI/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Projetos/calculadoraMathbackup/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Projetos/calculadoraMathbackup/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Projetos/calculadoraMathbackup/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="C:/Users/Leonardo/Documents/Projetos/calculadoraMath/cmake-build-debug"/>
+				<Option working_dir="C:/Projetos/calculadoraMathbackup/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Leonardo/Documents/Projetos/calculadoraMath/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Leonardo/Documents/Projetos/calculadoraMath/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Leonardo/Documents/Projetos/calculadoraMath/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Leonardo/Documents/Projetos/calculadoraMath/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Projetos/calculadoraMathbackup/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Projetos/calculadoraMathbackup/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Projetos/calculadoraMathbackup/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Projetos/calculadoraMathbackup/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="C:/Users/Leonardo/Documents/Projetos/calculadoraMath/cmake-build-debug"/>
+				<Option working_dir="C:/Projetos/calculadoraMathbackup/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Leonardo/Documents/Projetos/calculadoraMath/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Leonardo/Documents/Projetos/calculadoraMath/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Leonardo/Documents/Projetos/calculadoraMath/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Leonardo/Documents/Projetos/calculadoraMath/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Projetos/calculadoraMathbackup/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Projetos/calculadoraMathbackup/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Projetos/calculadoraMathbackup/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Projetos/calculadoraMathbackup/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/Leonardo/Documents/Projetos/calculadoraMath/funcoes.c">
+		<Unit filename="C:/Projetos/calculadoraMathbackup/funcoes.c">
 			<Option target="calculadoraPI"/>
 		</Unit>
-		<Unit filename="C:/Users/Leonardo/Documents/Projetos/calculadoraMath/funcoes.h">
+		<Unit filename="C:/Projetos/calculadoraMathbackup/funcoes.h">
 			<Option target="calculadoraPI"/>
 		</Unit>
-		<Unit filename="C:/Users/Leonardo/Documents/Projetos/calculadoraMath/main.c">
+		<Unit filename="C:/Projetos/calculadoraMathbackup/main.c">
 			<Option target="calculadoraPI"/>
 		</Unit>
-		<Unit filename="C:/Users/Leonardo/Documents/Projetos/calculadoraMath/CMakeLists.txt">
+		<Unit filename="C:/Projetos/calculadoraMathbackup/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

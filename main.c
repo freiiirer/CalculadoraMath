@@ -67,20 +67,20 @@ int main(void) {
                     scanf("%d", &vetor);
                     limpaTela();
 
-                    switch (vetor) {
-                        case 1://crescente
-                            vetorCrescente();
-                            break;
-                        case 2://decrescente
-                            vetorDecrescente();
-                            break;
-                        case 3:
-                            limpaTela();
-                            continue;
-                        default:
-                            opcaoInvalida();
-                            continue;
-                    }//fim switch vetor
+                        switch (vetor) {
+                            case 1://crescente
+                                vetorCrescente();
+                                break;
+                            case 2://decrescente
+                                vetorDecrescente();
+                                break;
+                            case 3:
+                                limpaTela();
+                                continue;
+                            default:
+                                opcaoInvalida();
+                                continue;
+                        }//fim switch vetor
 
                     limpaTela();
                 }//fim  menu vetor

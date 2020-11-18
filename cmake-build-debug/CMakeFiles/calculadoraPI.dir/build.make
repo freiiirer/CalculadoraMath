@@ -62,10 +62,10 @@ RM = "C:\Program Files\JetBrains\CLion 2020.2.4\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Leonardo\Documents\Projetos\calculadoraMath
+CMAKE_SOURCE_DIR = C:\Projetos\calculadoraMathbackup
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Leonardo\Documents\Projetos\calculadoraMath\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Projetos\calculadoraMathbackup\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/calculadoraPI.dir/depend.make
@@ -78,29 +78,29 @@ include CMakeFiles/calculadoraPI.dir/flags.make
 
 CMakeFiles/calculadoraPI.dir/main.c.obj: CMakeFiles/calculadoraPI.dir/flags.make
 CMakeFiles/calculadoraPI.dir/main.c.obj: ../main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Leonardo\Documents\Projetos\calculadoraMath\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/calculadoraPI.dir/main.c.obj"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\calculadoraPI.dir\main.c.obj   -c C:\Users\Leonardo\Documents\Projetos\calculadoraMath\main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Projetos\calculadoraMathbackup\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/calculadoraPI.dir/main.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\calculadoraPI.dir\main.c.obj   -c C:\Projetos\calculadoraMathbackup\main.c
 
 CMakeFiles/calculadoraPI.dir/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/calculadoraPI.dir/main.c.i"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Leonardo\Documents\Projetos\calculadoraMath\main.c > CMakeFiles\calculadoraPI.dir\main.c.i
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Projetos\calculadoraMathbackup\main.c > CMakeFiles\calculadoraPI.dir\main.c.i
 
 CMakeFiles/calculadoraPI.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/calculadoraPI.dir/main.c.s"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Leonardo\Documents\Projetos\calculadoraMath\main.c -o CMakeFiles\calculadoraPI.dir\main.c.s
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Projetos\calculadoraMathbackup\main.c -o CMakeFiles\calculadoraPI.dir\main.c.s
 
 CMakeFiles/calculadoraPI.dir/funcoes.c.obj: CMakeFiles/calculadoraPI.dir/flags.make
 CMakeFiles/calculadoraPI.dir/funcoes.c.obj: ../funcoes.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Leonardo\Documents\Projetos\calculadoraMath\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/calculadoraPI.dir/funcoes.c.obj"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\calculadoraPI.dir\funcoes.c.obj   -c C:\Users\Leonardo\Documents\Projetos\calculadoraMath\funcoes.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Projetos\calculadoraMathbackup\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/calculadoraPI.dir/funcoes.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\calculadoraPI.dir\funcoes.c.obj   -c C:\Projetos\calculadoraMathbackup\funcoes.c
 
 CMakeFiles/calculadoraPI.dir/funcoes.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/calculadoraPI.dir/funcoes.c.i"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Leonardo\Documents\Projetos\calculadoraMath\funcoes.c > CMakeFiles\calculadoraPI.dir\funcoes.c.i
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Projetos\calculadoraMathbackup\funcoes.c > CMakeFiles\calculadoraPI.dir\funcoes.c.i
 
 CMakeFiles/calculadoraPI.dir/funcoes.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/calculadoraPI.dir/funcoes.c.s"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Leonardo\Documents\Projetos\calculadoraMath\funcoes.c -o CMakeFiles\calculadoraPI.dir\funcoes.c.s
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Projetos\calculadoraMathbackup\funcoes.c -o CMakeFiles\calculadoraPI.dir\funcoes.c.s
 
 # Object files for target calculadoraPI
 calculadoraPI_OBJECTS = \
@@ -116,7 +116,7 @@ calculadoraPI.exe: CMakeFiles/calculadoraPI.dir/build.make
 calculadoraPI.exe: CMakeFiles/calculadoraPI.dir/linklibs.rsp
 calculadoraPI.exe: CMakeFiles/calculadoraPI.dir/objects1.rsp
 calculadoraPI.exe: CMakeFiles/calculadoraPI.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Leonardo\Documents\Projetos\calculadoraMath\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable calculadoraPI.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Projetos\calculadoraMathbackup\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable calculadoraPI.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\calculadoraPI.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -129,6 +129,6 @@ CMakeFiles/calculadoraPI.dir/clean:
 .PHONY : CMakeFiles/calculadoraPI.dir/clean
 
 CMakeFiles/calculadoraPI.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\Leonardo\Documents\Projetos\calculadoraMath C:\Users\Leonardo\Documents\Projetos\calculadoraMath C:\Users\Leonardo\Documents\Projetos\calculadoraMath\cmake-build-debug C:\Users\Leonardo\Documents\Projetos\calculadoraMath\cmake-build-debug C:\Users\Leonardo\Documents\Projetos\calculadoraMath\cmake-build-debug\CMakeFiles\calculadoraPI.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Projetos\calculadoraMathbackup C:\Projetos\calculadoraMathbackup C:\Projetos\calculadoraMathbackup\cmake-build-debug C:\Projetos\calculadoraMathbackup\cmake-build-debug C:\Projetos\calculadoraMathbackup\cmake-build-debug\CMakeFiles\calculadoraPI.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/calculadoraPI.dir/depend
 
