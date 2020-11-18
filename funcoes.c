@@ -439,7 +439,7 @@ int vetorArray[5],aux;//vetor
 
         }else if (menu ==4){
             printf("Digite o valor de x: ");
-            scanf("%.0f",&x);
+            scanf("%f",&x);
             limpaTela();
             printf("[e^x] = e . ln(e) = e^x\n");
             printf("            { 1 } \n");
@@ -472,9 +472,9 @@ int vetorArray[5],aux;//vetor
 
         }else if (menu == 4){
             printf("Digite o valor de x: ");
-            scanf("%.0f",&x);
+            scanf("%f",&x);
             printf("Digite o valor de k desejado: ");
-            scanf("%.0f",&k);
+            scanf("%f",&k);
             limpaTela();
 
             printf("logk (x)' =   1\n");
