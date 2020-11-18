@@ -5,16 +5,14 @@
 #define CALCULADORAPI_FUNCOES_H
 
 #include <stdlib.h>
-
 void pressioneEnter();
 int vetorCrescente();
 int vetorDecrescente();
 int matrizDeterminante();
-int matrizSoma(); 
+int matrizSoma();
 int matrizSubtracao();
 int matrizProduto();
 void limpaTela();
-int derivada();
 void opcaoInvalida();
 //------------//
 //funcao
