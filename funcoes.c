@@ -439,7 +439,7 @@ int vetorArray[5],aux;//vetor
 
         }else if (menu ==4){
             printf("Digite o valor de x: ");
-            scanf("%d",&x);
+            scanf("%f",&x);
             limpaTela();
             printf("[e^x] = e . ln(e) = e^x\n");
             printf("            { 1 } \n");
@@ -450,7 +450,7 @@ int vetorArray[5],aux;//vetor
 
             printf("\n");
 
-            printf("[%.2f^%d] = %.2f . ln(%.2f) = %.2f^%d\n",e,x,e,e,e,x);
+            printf("[%.2f^%.0f] = %.2f . ln(%.2f) = %.2f^%.0f\n",e,x,e,e,e,x);
             printf("                  {  1  } \n");
         }
         pressioneEnter();
@@ -472,9 +472,9 @@ int vetorArray[5],aux;//vetor
 
         }else if (menu == 4){
             printf("Digite o valor de x: ");
-            scanf("%d",&x);
+            scanf("%f",&x);
             printf("Digite o valor de k desejado: ");
-            scanf("%d",&k);
+            scanf("%f",&k);
             limpaTela();
 
             printf("logk (x)' =   1\n");
@@ -484,9 +484,9 @@ int vetorArray[5],aux;//vetor
             printf("\nResultados com numeros \n");
             printf("\n");
 
-            printf("log%d (%d)' =   1\n",k,x);
+            printf("log%.0f (%.0f)' =   1\n",k,x);
             printf("            -----\n");
-            printf("           %d . ln(%d)\n",x,k);
+            printf("           %.0f . ln(%.0f)\n",x,k);
 
         }
         pressioneEnter();
@@ -507,7 +507,7 @@ int vetorArray[5],aux;//vetor
 
         }else if (menu == 4){
             printf("Digite o valor de x: ");
-            scanf("%d",&x);
+            scanf("%f",&x);
             limpaTela();
             printf("[ln(x)]' = [log e(x)]' = 1 =     1 \n");
             printf("                       -----    ---\n");
@@ -520,9 +520,9 @@ int vetorArray[5],aux;//vetor
             printf("\n Resultado com numeros\n");
             printf("\n");
 
-            printf("[ln(%d)]' = [log %.2f(%d)]' = 1 =     1 \n",x,e,x);
+            printf("[ln(%.0f)]' = [log %.2f(%.0f)]' = 1 =     1 \n",x,e,x);
             printf("                          -----    ---\n");
-            printf("                      %d . ln(%.2f)  %d\n",x,e,x);
+            printf("                      %.0f . ln(%.2f)  %.0f\n",x,e,x);
             printf("                           {1}");
             printf("\n");
         }
@@ -542,7 +542,7 @@ int vetorArray[5],aux;//vetor
 
         }else if (menu == 4) {
             printf("Digite o valor de x desejado: ");
-            scanf("%d", &x);
+            scanf("%f", &x);
             limpaTela();
             printf(" 1 =  1\n");
             printf("---  ---\n");
@@ -554,7 +554,7 @@ int vetorArray[5],aux;//vetor
 
             printf(" 1 =  1\n");
             printf("---  ---\n");
-            printf(" %d   %d^2\n", x, x);
+            printf(" %.0f   %.0f^2\n", x, x);
         }
         pressioneEnter();
     }
@@ -571,7 +571,7 @@ int vetorArray[5],aux;//vetor
 
         }else if (menu == 4){
             printf("Digite o valor de x desejado: ");
-            scanf("%d",&x);
+            scanf("%lf",&x);
 
             printf("[sen(x)] = cos(x)\n");
             printf("\n");
@@ -579,7 +579,7 @@ int vetorArray[5],aux;//vetor
             printf("Resultado com numeros");
             printf("\n");
 
-            printf("[sen(%d)]' = cos(%d)\n",x,x);
+            printf("[sen(%.0lf)]' = cos(%.0lf)\n",x,x);
         }
         pressioneEnter();
 
@@ -596,9 +596,9 @@ int vetorArray[5],aux;//vetor
             printf("f(%.0lf) = %.3f\n",x, cos((x*PI)/180));
 
         }else if(menu == 4){
-            int x;
+            double x;
             printf("Digite o valor de x desejado: ");
-            scanf("%d",&x);
+            scanf("%lf",&x);
 
             printf("[cos(x)]' = -sen(x)\n");
             printf("\n");
@@ -606,7 +606,7 @@ int vetorArray[5],aux;//vetor
             printf("Resultado com numeros");
             printf("\n");
 
-            printf("[cos(%d)]' = -sen(%d)\n",x,x);
+            printf("[cos(%.0lf)]' = -sen(%.0lf)\n",x,x);
         }
         pressioneEnter();
 
@@ -623,7 +623,7 @@ int vetorArray[5],aux;//vetor
             printf("f(%.0lf) = %.3f\n",x, tan((x*PI)/180));
         }else if(menu == 4){
             printf("Digite o valor de x desejado: ");
-            scanf("%d",&x);
+            scanf("%lf",&x);
             limpaTela();
             printf("[tg(x)]' = sec^2(x)\n");
             printf("\n");
@@ -631,7 +631,7 @@ int vetorArray[5],aux;//vetor
             printf("Resultado com numeros");
             printf("\n");
 
-            printf("[tg(%d)]' = sec^2(%d)\n",x,x);
+            printf("[tg(%.0lf)]' = sec^2(%.0lf)\n",x,x);
         }
         pressioneEnter();
     }
