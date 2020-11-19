@@ -41,13 +41,13 @@ int main(void) {
         printf("    |                                     |\n");
         printf("    |         1- Vetor                    |\n");
         printf("    |         2- Matrizes                 |\n");
-        printf("    |         3- Funções                  |\n");
+        printf("    |         3- Funï¿½ï¿½es                  |\n");
         printf("    |         4- Derivadas                |\n");
         printf("    |               Sair(5)               |\n");
         printf("    |_____________________________________|\n");
 
 
-        printf("\n    Digite uma das opções acima:");
+        printf("\n    Digite uma das opï¿½ï¿½es acima:");
 
 
         scanf("%d", &menu);
@@ -63,7 +63,7 @@ int main(void) {
                     printf("2- Ordem descrescente\n");
                     printf("3- VOLTAR AO MENU PRINCIPAL\n");
 
-                    printf("Escolha sua opção ");
+                    printf("Escolha sua opï¿½ï¿½o ");
                     scanf("%d", &vetor);
                     limpaTela();
 
@@ -93,13 +93,13 @@ int main(void) {
                     printf("2- Soma\n");
 
 
-                    printf("3- Subtração\n");
+                    printf("3- Subtraï¿½ï¿½o\n");
 
 
                     printf("4- Produto\n");
                     printf("5- VOLTAR AO MENU PRINCIPAL\n");
 
-                    printf("Escolha sua opção: ");
+                    printf("Escolha sua opï¿½ï¿½o: ");
                     scanf("%d", &matriz);
                     limpaTela();
                     switch (matriz) {
@@ -127,7 +127,7 @@ int main(void) {
                 break;
             case 3:// Funcoes
                 while (funcao != 11) {
-                    printf("Escolha a função\n\n\n");
+                    printf("Escolha a funï¿½ï¿½o\n\n\n");
                     printf("1- f(x) = k\n");
                     printf("2- f(x) = x^k\n");
                     printf("3- f(x) = k^x\n");
@@ -140,7 +140,7 @@ int main(void) {
                     printf("10- f(x) = tg(x)\n");
                     printf("11- Voltar ao menu principal\n\n");
 
-                    printf("Escolha sua opção:\n>>> ");
+                    printf("Escolha sua opï¿½ï¿½o:\n>>> ");
                     scanf("%d", &funcao);
                     limpaTela();
                     switch (funcao) {
@@ -186,7 +186,7 @@ int main(void) {
 
             case 4://derivadas
                 while (derivadas != 11) {
-                    printf("Escolha a função a ser derivada\n\n");
+                    printf("Escolha a funï¿½ï¿½o a ser derivada\n\n");
                     printf("1- f(x) = k\n");
                     printf("2- f(x) = x^k\n");
                     printf("3- f(x) = k^x\n");
@@ -199,7 +199,7 @@ int main(void) {
                     printf("10- f(x) = tg(x)\n");
                     printf("11- Voltar ao menu principal\n\n");
 
-                    printf("Escolha sua opção:\n>>> ");
+                    printf("Escolha sua opï¿½ï¿½o:\n>>> ");
                     scanf("%d", &derivadas);
                     limpaTela();
 

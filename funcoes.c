@@ -47,7 +47,7 @@ int vetorArray[5],aux;//vetor
             }
         }
         for (int i = 0; i < 5; i++) {//exibicao
-            printf("\nO Valor da posicao %d agora é : %d\n", i, vetorArray[i]);
+            printf("\nO Valor da posicao %d agora ï¿½ : %d\n", i, vetorArray[i]);
         }
         pressioneEnter();
     }
@@ -69,7 +69,7 @@ int vetorArray[5],aux;//vetor
         }
     }
     for (int i = 0; i < 5; i++) {//exibicao
-        printf("\nO Valor da posicao %d agora é: %d\n", i, vetorArray[i]);
+        printf("\nO Valor da posicao %d agora ï¿½: %d\n", i, vetorArray[i]);
     }
     pressioneEnter();
 }
@@ -330,7 +330,7 @@ int vetorArray[5],aux;//vetor
 
     void opcaoInvalida() {
         limpaTela();
-        printf("Digite uma opção válida\n");
+        printf("Digite uma opï¿½ï¿½o vï¿½lida\n");
         printf("Pressione ENTER para continuar\n");
         fflush(stdin);
         getchar();
